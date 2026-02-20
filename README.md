@@ -2,7 +2,7 @@
 
 AI-powered fruit image classifier using TensorFlow and MobileNetV2. Upload an image and get instant predictions for apples, bananas, cherries, and mangoes.
 
-![Python](https://img.shields.io/badge/Python-3.9-blue)
+![Python](https://img.shields.io/badge/Python-3.8-blue)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.10.0-orange)
 ![Flask](https://img.shields.io/badge/Flask-API-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
@@ -17,7 +17,7 @@ AI-powered fruit image classifier using TensorFlow and MobileNetV2. Upload an im
 - **Deep Learning**: MobileNetV2 transfer learning
 - **Real-time Predictions**: Instant classification with confidence scores
 - **Simple UI**: Clean and responsive interface
-- **Free Deployment**: Ready for Render
+- **REST API**: Flask-based backend API
 
 ## 📁 Project Structure
 
@@ -25,8 +25,6 @@ AI-powered fruit image classifier using TensorFlow and MobileNetV2. Upload an im
 fruit-image-classifier/
 ├── app.py                 # Flask API server
 ├── requirements.txt       # Python dependencies
-├── render.yaml           # Render deployment config
-├── vercel.json           # Vercel deployment config
 ├── index.html            # Main HTML file
 ├── model/
 │   ├── fruit_model.h5    # Trained model
@@ -51,7 +49,6 @@ fruit-image-classifier/
 - **Backend**: Flask, TensorFlow 2.10, NumPy
 - **Frontend**: HTML, CSS, JavaScript
 - **Model**: MobileNetV2 (ImageNet pretrained)
-- **Deployment**: Render (Full Stack)
 
 ## 📦 Installation
 
@@ -102,18 +99,6 @@ python train_model.py
 - Optimizer: Adam
 - Loss: Categorical Crossentropy
 
-## 🌐 Deployment
-
-### Deploy to Render (Free)
-
-**Full deployment guide:** See [DEPLOYMENT.md](DEPLOYMENT.md)
-
-**Quick Steps:**
-1. Push code to GitHub (public repo)
-2. Connect GitHub to Render
-3. Deploy as Web Service
-4. Your app is live!
-
 ## 📊 Model Performance
 
 - **Training Accuracy**: ~95%
@@ -148,7 +133,6 @@ MIT License - feel free to use this project for learning and development.
 
 - TensorFlow team for MobileNetV2
 - Flask framework
-- Render for free hosting
 
 ---
 
