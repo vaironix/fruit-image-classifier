@@ -21,7 +21,7 @@ with open(LABELS_PATH, "r") as f:
 
 @app.route("/")
 def index():
-    return jsonify({"status": "Fruit Classifier API is running"})
+    return render_template("index.html")
 
 @app.route("/predict", methods=["POST"])
 def predict():

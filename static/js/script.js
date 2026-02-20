@@ -1,6 +1,3 @@
-// UPDATE THIS URL AFTER DEPLOYING TO RENDER
-const API_URL = "https://your-app-name.onrender.com";
-
 function previewImage() {
     const file = document.getElementById("imageInput").files[0];
     const preview = document.getElementById("preview");
@@ -14,7 +11,7 @@ function predict() {
     const formData = new FormData();
     formData.append("image", input.files[0]);
 
-    fetch(`${API_URL}/predict`, {
+    fetch("/predict", {
         method: "POST",
         body: formData
     })

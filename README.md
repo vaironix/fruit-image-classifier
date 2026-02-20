@@ -17,7 +17,7 @@ AI-powered fruit image classifier using TensorFlow and MobileNetV2. Upload an im
 - **Deep Learning**: MobileNetV2 transfer learning
 - **Real-time Predictions**: Instant classification with confidence scores
 - **Simple UI**: Clean and responsive interface
-- **Free Deployment**: Ready for Vercel + Render
+- **Free Deployment**: Ready for Render
 
 ## 📁 Project Structure
 
@@ -51,7 +51,7 @@ fruit-image-classifier/
 - **Backend**: Flask, TensorFlow 2.10, NumPy
 - **Frontend**: HTML, CSS, JavaScript
 - **Model**: MobileNetV2 (ImageNet pretrained)
-- **Deployment**: Vercel (Frontend) + Render (Backend)
+- **Deployment**: Render (Full Stack)
 
 ## 📦 Installation
 
@@ -104,15 +104,15 @@ python train_model.py
 
 ## 🌐 Deployment
 
-### Deploy to Vercel + Render (Free)
+### Deploy to Render (Free)
 
 **Full deployment guide:** See [DEPLOYMENT.md](DEPLOYMENT.md)
 
 **Quick Steps:**
 1. Push code to GitHub (public repo)
-2. Deploy backend to Render
-3. Update API URL in `static/js/script.js`
-4. Deploy frontend to Vercel
+2. Connect GitHub to Render
+3. Deploy as Web Service
+4. Your app is live!
 
 ## 📊 Model Performance
 
@@ -148,7 +148,7 @@ MIT License - feel free to use this project for learning and development.
 
 - TensorFlow team for MobileNetV2
 - Flask framework
-- Vercel & Render for free hosting
+- Render for free hosting
 
 ---
 
